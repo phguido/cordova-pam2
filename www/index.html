@@ -1,20 +1,69 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
     <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" href="css/estilo.css">
-    <title>App ucrania</title>
+
+    <link href="css/css-bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilo.css" rel="stylesheet" />
+    <title>App Fernando</title>
 </head>
 
 <body>
-    <h1>Teste</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white " href="#">Meu App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link  text-white " href="#">Features</a>
+                    <a class="nav-link text-white " href="#">Pricing</a>
+                    <a class="nav-link  text-white ">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="cep" placeholder="Cep" aria-label="Cep" aria-describedby="button">
+                <button class="btn btn-primary" id="botao">Pesquisar CEP</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <label>Nome</label>
+            <input class="form-control" type="text" id="logradouro1" />
+            <label>Documento</label>
+            <input class="form-control" type="text" id="logradouro2" />
+            <label>celular</label>
+            <input class="form-control" type="text" id="logradouro3" />
+            <label>Numero</label>
+            <input class="form-control" type="text" id="logradouro4" />
+            <label>Cep</label>
+            <input class="form-control" type="text" id="logradouro5" />
+            <label>Endereço</label>
+            <input class="form-control" type="text" id="logradouro6" />
+            <label>Bairo</label>
+            <input class="form-control" type="text" id="logradouro7" />
+            <label>Cidade</label>
+            <input class="form-control" type="text" id="logradouro8" />
+            <label>Estado</label>
+            <input class="form-control" type="text" id="logradouro9" />
+
+
+        </div>
+    </div>
+    <script src="js/js-bootstrap/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
